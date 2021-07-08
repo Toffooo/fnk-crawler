@@ -28,7 +28,7 @@ def get_value():
 def send_message():
     price = get_value()
 
-    for chat_id in [557813169]:
+    for chat_id in [557813169, 1149383783]:
         url = telegram_bot_send_message.format(
             telegram_bot_api_base, bot_token, chat_id, price
         )
